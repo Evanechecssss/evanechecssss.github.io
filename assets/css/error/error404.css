@@ -1,0 +1,32 @@
+html {
+    background: url("./../../images/backgrounds/error.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.info {
+    color: #D9CFCD;
+    font-family: 'Koh Santepheap', 'cursive';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-top: 400px;
+    text-decoration: none;
+    text-shadow: #d10812 1px 0 10px;
+    transition: color 1s linear;
+    transition: text-shadow 1s linear;
+    text-transform: uppercase;
+}
+
+.info:hover {
+    color: #D9CFCD;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}

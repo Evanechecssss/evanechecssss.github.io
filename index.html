@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Open Graph-->
+    <meta property="og:title" content="Hello! Welcome to my profile site" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://evanechecssss.github.io" />
+    <meta property="og:image" content="https://evanechecssss.github.io/assets/images/misc/banner_logo.png" />
+    <meta property="og:site_name" content="Evanechecssss" />
+    <!--Misc-->
+    <link rel="icon" href="./assets/images/misc/icon.png" type="image/png">
+    <title>EVANECHECSSSS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <script src="./assets/scripts/i18n.js"></script>
+
+    <div class="main" id="main">
+        <script type="text/javascript">
+            var backgrounds = [
+                "url(./assets/images/backgrounds/b0.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b1.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b2.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b3.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b4.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b5.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b6.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b7.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b8.jpg) top center no-repeat",
+                "url(./assets/images/backgrounds/b9.jpg) top center no-repeat"
+            ];
+            document.getElementById("main").style.background = backgrounds[Math.floor(Math.random() * ((backgrounds.length - 1) - 0 + 1)) + 0];
+            var c = document.getElementById("knight_l");
+            var ctx = c.getContext("2d");
+            ctx.rotate(20 * Math.PI / 180);
+            ctx.fillRect(50, 20, 100, 50);
+        </script>
+
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <nav class="nav">
+                        <a href="./mods/" class="nav__link">Моды</a>
+                        <a href="./scripts/" class="nav__link">Скрипты</a>
+                        <a href="#info" class="nav__link">Контакты</a>
+                        <a href="./articles/" class="nav__link">Статьи</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="intro">
+            <div class="container">
+                <h1 class="intro__suptitle"></h1>
+
+                <h1 class="intro__title">
+                    <script>
+
+                    </script>
+                </h1>
+                <a class="intro_btn" href="#info">Больше</a>
+                <p id="info" class="info">
+                    Мои контакты
+                </p>
+
+            </div>
+
+        </div>
+        <div id="about__me">
+        </div>
+        <div class="my__links">
+            <div class="container">
+                <div class="link__vk">
+                    <a class="a__link__vk" href="https://vk.com/evanechecs"><img class="link__vk__image"
+                            src="./../assets/images/links/vk.png" alt="vk" width="100px" height="100px"></a>
+
+                    <div class="effectr"></div>
+                    <div class="effectl"></div>
+                    <div class="knight_l" id="knight_l"></div>
+                </div>
+            </div>
+        </div>
+        <div id="about__me">
+            <div id="mod__my">
+                <div class="container">
+                    <div class="image_to_down" style="left: 300px;">
+                        <a class="my__mods" href="https://vk.com/evanechecs">
+                            <iframe class="link__my__mods" width="600" height="338"
+                                src="https://media.discordapp.net/attachments/669281299248185347/858686539834720266/ezgif-7-83e5e8598851.gif"
+                                frameborder="0" allowfullscreen="" class="__web-inspector-hide-shortcut__"></iframe>
+                        </a>
+
+                    </div>
+                </div>
+                <h1 class="info" style="top:-100px">Лучшая музыка имхо</h1>
+                <div class="container">
+                    <div class="link__my__mods">
+                        <iframe class="embedSpotify-tvxDCr embedWrapper-lXpS3L"
+                            src="https://open.spotify.com/embed/album/49s4N9J1B9WJ1roqsUtV4e?utm_source=discord&amp;utm_medium=desktop"
+                            frameborder="0"
+                            sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                            style="width: 400px; height: 300px;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="link__kirkus">
+                <a class="a__kirkus" href="https://bio.link/kirkus"><img class="link__kirkus__image"
+                        src="./../assets/images/links/kirkus.png" alt="Kirkus" width="100px" height="100px"></a>
+            </div>
+            <div class="link__creman">
+                <a class="a__creman" href="https://vk.com/cremantop"><img class="link__creman__image"
+                        src="./../assets/images/links/creman.png" alt="Creman" width="200px" height="100px"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul class="clear__footer__info">
+            <div class="container">
+                <li class="left copyright">© All Rights Reserved 2021 — Evanechecssss</li>
+                <li class="right">
+                    Хостинг
+                    <a class="footer1" href="https://github.com/Evanechecssss/Evanechecssss.github.io/"
+                        target="_blank">GitHub</a>
+                </li>
+            </div>
+        </ul>
+    </div>
+</body>
+
+</html>
